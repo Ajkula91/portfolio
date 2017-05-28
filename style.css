@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'sans-serif', "Courgette" cursive;
+    font-weight: 400;
+    color: #555;
+    background-image: url("img/2144.jpg");
+    /*background-color: #f3f8f4;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    }
+
+p {
+    font-family: 'sans-serif', cursive;
+    font-size: 2rem;
+}
+
+.row h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/** MAIN NAV AND LISTS **/
+.main-nav{
+    font-family: 'sans-serif', cursive;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 2.5rem;
+    background-color: azure;
+}
+
+.main-nav li {
+    font-family: 'sans-serif', cursive;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 20px;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    -webkit-transition: color .5s;
+    transition: color .5s;
+}
+
+.main-nav a:active {
+    color:#f3f8f4;
+}
+
+.social-content ul li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+}
+
+.social-content ul li {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.social-content a {
+    -webkit-transition: color .5s;
+    transition: color .5s;
+}
+/**END OF MAIN NAV AND LIST**/
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.home-page {
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    text-align: center;
+    /*
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    background-color: ;
+    */
+}
+
+.wrapper {
+    padding: 100px 100px;
+}
+
+.img-text {
+    display: inline-block;
+    margin: 0 auto;
+    text-align:center; 
+    padding-bottom: 20px;
+}
+
+.text {
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin: 0 auto;
+    text-align:center; 
+}
+
+.social-content {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 15rem;
+    display: inline-block;
+    text-align: center;
+}
+
+
+/************* STYLE FOR MY PLAYGROUND *************/
+
+.home-page-playground {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    text-align: center;
+    padding: 50px 100px;
+    background-color: #f3f8f4;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+
+}
+
+.text-playground {
+    padding-bottom: 50px;
+    color: #333;
+}
+
+.list-projects {
+    padding: 25px 50px;
+}
+
+.list-projects ul li {
+    text-decoration: none;
+    list-style: none;
+    margin: 15px 0;
+}
+
+.list-projects ul li a {
+    font-size: 2.3rem;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px 5px;
+    color: #333;
+}
+
+
+.list-projects ul li a:hover {
+    color: #337ab7;
+    -webkit-transition: color .5s;
+    transition: color .5s;
+}
+
+li span {
+    display: block;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    color: #337ab7;
+}
